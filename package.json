@@ -1,0 +1,20 @@
+{
+  "name": "es6",
+  "version": "1.0.0",
+  "main": "demo.js",
+  "type":"module",
+  "scripts": {
+    "dev":"nodemon --exec babel-node"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@babel/core": "^7.27.1",
+    "@babel/node": "^7.27.1",
+    "@babel/preset-env": "^7.27.2",
+    "babel-plugin-add-module-exports": "^1.0.4",
+    "nodemon": "^3.1.10"
+  }
+}
